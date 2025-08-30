@@ -1,23 +1,31 @@
-Project Overview:
-This project is designed to enhance child safety by automatically turning off the TV screen when a child gets too close to it. The system uses an ultrasonic sensor to detect the distance between the child and the screen. If the distance falls below a safe limit, the FPGA processes the data and turns off the display immediately. Once the child moves away to a safe distance, the display is turned back on. This smart solution helps reduce eye strain and protects children's vision by ensuring they watch TV from a healthy distance.
+FPGA Controlled Automated TV Screen-off System for Child Protection
+📖 Project Overview
 
-Key Features:
+This project is designed to enhance child safety by automatically turning off the TV screen when a child gets too close to it. The system uses an ultrasonic sensor to detect the distance between the child and the screen.
 
-Successfully designed and implemented an FPGA-based system to monitor child presence and automatically control TV screen status.
+If the distance falls below a safe limit, the FPGA processes the data and immediately turns off the display.
 
-Ensures child eye protection by limiting prolonged exposure to TV screens.
+Once the child moves away to a safe distance, the display is restored.
 
-Utilized Verilog HDL for modular, hardware-level design—efficient, reliable, and real-time.
+This smart solution helps reduce eye strain and protects children's vision by ensuring they watch TV from a healthy distance.
 
-Integrated Ultrasonic Sensor and VGA Control for seamless detection and response.
+✨ Key Features
 
-Power-efficient and independent of smart TV functionalities, making it ideal for all screen types.
+✅ FPGA-based system to monitor child presence and automatically control TV screen status.
 
-Scalable solution that can be extended with AI-based detection or mobile alerts in the future.
+✅ Protects children's eyes by enforcing safe viewing distance.
 
-Promotes responsible technology use for healthier child development.
+✅ Designed in Verilog HDL for modular, hardware-level, real-time control.
 
-Components Used:
+✅ Integrated Ultrasonic Sensor with VGA display control for seamless detection and response.
+
+✅ Power-efficient and independent of Smart TV functionalities – works with any display type.
+
+✅ Scalable design – can be extended with AI-based detection or mobile alerts.
+
+✅ Encourages responsible technology use for healthier child development.
+
+🛠 Components Used
 
 Ultrasonic Sensor (HC-SR04)
 
@@ -33,25 +41,29 @@ FPGA EDGE Artix-7 Board
 
 Xilinx Vivado Software
 
-Working Principle:
+⚙️ Working Principle
 
 The ultrasonic sensor measures the distance between the child and the TV screen.
 
-If the child comes closer than the pre-defined safe distance, the FPGA processes the signal.
+If the child comes closer than the predefined safe distance:
 
-The FPGA then controls the VGA output and turns off the display.
+The FPGA processes the signal.
 
-When the child moves back to a safe distance, the FPGA automatically restores the display.
+The VGA output is controlled, and the display turns OFF.
 
-Applications:
+When the child moves back to a safe distance:
 
-Home entertainment systems for safe TV viewing.
+The FPGA automatically restores the display.
 
-Educational environments where children use large displays.
+📌 Applications
 
-Public information displays for crowd safety management.
+🏠 Home entertainment systems for safe TV viewing.
 
-Future Scope:
+🎓 Educational environments with large displays.
+
+🏢 Public information displays for crowd safety management.
+
+🚀 Future Scope
 
 AI-based detection for enhanced accuracy.
 
@@ -59,5 +71,16 @@ Mobile alerts for parental monitoring.
 
 Extension to other display systems beyond TVs.
 
-Conclusion:
+✅ Conclusion
+
 This project demonstrates how FPGA technology, when integrated with simple sensors, can provide innovative and practical solutions for child protection. It ensures safe and responsible TV usage, promoting healthier vision and better child development.
+
+👤 Author
+
+Angam Jithendranath
+
+📧 Email: jithendranathangam@gmail.com
+
+💼 LinkedIn: linkedin.com/in/jithendranathangam
+
+🖥 GitHub: github.com/Jithendranath777
